@@ -693,6 +693,7 @@ header.header-fixed #main-nav li.current-menu-ancestor>a.dropdown-toggle {
 
 .top-slider .slide-item .content .swin-btn:hover {
     border-color: transparent;
+    background-color: #006cb7;
 }
 
 .top-slider .slide-item .slide-bg,

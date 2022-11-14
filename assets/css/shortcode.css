@@ -131,6 +131,7 @@ Press Ctrl + F to find component. Ex: "#Header";
 
 .swin-sc-social.dark .socials li a:hover {
     border-color: #203771;
+    transform: scale(1.2);
 }
 
 .swin-sc-social.dark .socials li a i {
@@ -221,6 +222,10 @@ Press Ctrl + F to find component. Ex: "#Header";
     border: 1px solid #d6d6d6;
     position: relative;
     padding: 30px 30px 40px 75px;
+}
+
+.testi-item-inner:hover * {
+    color: #203771;
 }
 
 .testi-item-inner:after {
@@ -322,9 +327,9 @@ Press Ctrl + F to find component. Ex: "#Header";
     max-width: 90%;
     margin: auto;
     opacity: 0.8;
-    /*-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;*/
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .swin-sc-partner .item a {
@@ -337,6 +342,10 @@ Press Ctrl + F to find component. Ex: "#Header";
 }
 
 .swin-sc-partner .item:hover img {
+    transform: scale(1.2);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     opacity: 1;
 }
 
@@ -1035,6 +1044,17 @@ div.wpcf7-response-output {
     border-width: 5px;
 }
 
+.team-item.slick-current .team-item-inner {
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.team-item.slick-current:hover .team-item-inner {
+    scale: 1.05;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
 /* ==========================================================================
 	#BlogGrid
 ========================================================================== */
@@ -1144,6 +1164,21 @@ div.wpcf7-response-output {
 .service-item-inner {
     position: relative;
     overflow: hidden;
+    border-radius: 0 10% 10% 0% !important;
+}
+
+.service-item-inner img {
+    border-radius: 0 10% 10% 0% !important;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.service-item-inner:hover img {
+    scale: 1.2;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .service-info {
