@@ -1164,11 +1164,11 @@ div.wpcf7-response-output {
 .service-item-inner {
     position: relative;
     overflow: hidden;
-    border-radius: 0 10% 10% 0% !important;
+    border-radius: 0 10% 0% 10% !important;
 }
 
 .service-item-inner img {
-    border-radius: 0 10% 10% 0% !important;
+    border-radius: 0 10% 0% 10% !important;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
